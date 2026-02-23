@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Статья</title>
+</head>
+<body>
+
+<h1>{{ theme }}</h1>
+<hr>
+<h2>Описание статьи : {{theme_description}}</h2>
+<h2>Дата добавления : {{add_time}}</h2>
+<h2>
+  <a href="/categoriya/{{theme_all.theme_categories.id}}"> {{ theme.theme_category }}</a>
+</h2>
+</body>
+</html>
