@@ -7,11 +7,12 @@
 <body>
 
 <h1>Категории</h1>
+<hr>
 
-{% for category in categories %}
+{% for i in categ %}
     <div>
-        <a href="{% url 'theme_page' category.id %}">
-            {{ category.category_name }}
+        <a href="{% url 'theme_page' i.id %}">
+            {{ i.category_name }}
         </a>
     </div>
 {% endfor %}

@@ -6,10 +6,11 @@
 </head>
 <body>
 <h1>Статьи</h1>
-
-{%for p in category_all %}
-<a href="/theme_all/{{ p.id }}">{{ p }}</a>
+<hr>
+{% for z in themes %}
+    <a href="/category_page/{{ z.id }}">{{ z }}</a>
 <br>
+
 {% endfor %}
 
 </body>
