@@ -5,10 +5,10 @@
     <title>Категории</title>
 </head>
 <body>
-<h1>Статьи</h1>
+<h1>Список статей</h1>
 <hr>
 {% for z in themes %}
-    <a href="/category_page/{{ z.id }}">{{ z }}</a>
+    <a href="/theme_page/{{ z.id }}">{{ z }}</a>
 <br>
 
 {% endfor %}
